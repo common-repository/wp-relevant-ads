@@ -1,0 +1,88 @@
+/* frontend styles  */
+
+.wp_relevant_ads_inline {
+	display: inline-block;
+}
+
+.wp_relevant_ads_fl {
+	float: left;
+}
+
+.wp_relevant_ads_fr {
+	float: right;
+}
+
+.wp_relevant_ads_clear {
+	clear: both;
+}
+
+/*-----------------------------------------------------------------------------*/
+/* Ads
+/*-----------------------------------------------------------------------------*/
+
+div.wp_relevant_ads_ad  {
+	/*margin: 5px;
+	-padding: 5px;*/
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------------*/
+/* Widget Grid Ads */
+/*-----------------------------------------------------------------------------*/
+.widget_wp_relevant_ads_ad div.wp_relevant_ads_ad {
+	margin: 5px;
+	padding: 5px;
+}
+.widget_wp_relevant_ads_ad .wp_relevant_ads {
+	min-height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.widget_wp_relevant_ads_ad .wp_relevant_ads img {
+	padding: 0px;
+	margin: 0px;
+}
+.widget_wp_relevant_ads_ad .wp_relevant_ads > .grid {
+	display: flex;
+	flex-basis: calc(50% - 20px);
+	justify-content: center;
+	flex-direction: column;
+}
+.widget_wp_relevant_ads_ad .wp_relevant_ads > .grid > .grid {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.widget_wp_relevant_ads_ad .wp_relevant_ads .center {
+	text-align: center;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.wp_relevant_ads_pw {
+	display: block;
+	width: 99%;
+}
+
+.wp_relevant_ads_pw a {
+	float: right;
+	padding: 1px;
+	background-color: #E8E8E8;
+	font-style: italic;
+	font-size: 10px;
+	width: 180px;
+	padding: 0px 5px 0 5px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.sponsored-by-relevant-ads {
+	text-align: center;
+	font-size: 15px;
+}
+
+.sponsored-by-relevant-ads img {
+	padding: 0;
+	margin-bottom: 5px;
+}

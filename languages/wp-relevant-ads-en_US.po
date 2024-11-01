@@ -1,0 +1,1560 @@
+# Translation of JobRoller
+# Copyright (C) 2010 JobRoller
+# This file can be distributed under the JobRoller terms
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Relevant Ads (v.1.0.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-06 12:35+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wp-relevant-ads-admin.php:149
+msgid "(All) Click to select..."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:150
+msgid "(Ignore) Click to select terms..."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:151
+msgid "Click to select hooks..."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:152
+msgid "Please select or specify a hook"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:153
+msgid "Please specify a selector"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:239
+msgid "No"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:241
+#: ../admin/class-wp-relevant-ads-metaboxes.php:99
+msgid "Yes"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:257
+msgid "Expired"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:283
+msgid "Name"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:284
+#: ../includes/class-wp-relevant-ads-widgets.php:79
+msgid "Category"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:285
+msgid "Taxonomies"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:286
+msgid "Triggered By"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:287
+#: ../admin/class-wp-relevant-ads-howto.php:86
+msgid "Call to Action"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:288
+#: ../admin/class-wp-relevant-ads-metaboxes.php:597
+#: ../admin/class-wp-relevant-ads-metaboxes.php:611
+#: ../admin/class-wp-relevant-ads-settings.php:41
+msgid "Clicks"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:289
+msgid "Start Date"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:290
+msgid "Expire Date"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:351
+msgid "Wrap Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:354
+#, php-format
+msgid ""
+"If checked, Ads with this category will be grouped in blocks using the HTML "
+"markup you set under the <a href=\"%s\">settings</a> page."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-admin.php:355
+msgid "Text added to the description field will be used as the block title."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:14
+#: ../admin/class-wp-relevant-ads-howto.php:15
+msgid "How To"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:28
+msgid "The Basics"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:30
+#, php-format
+msgid ""
+"<em>%1$s</em>, gives you the power to display any type of Ads: <em>Video, "
+"Images, Text, etc</em>, contextually, anywhere on your site. That's because "
+"it displays Ads based on your content taxonomy terms. If you're not familiar "
+"with taxonomies, please take a look at the <a href=\"%2$s\" target=\"_blank"
+"\">Taxonomies</a> related WordPress codex page. For example, a Classifieds "
+"site could use it to display Ads related with the category the users are "
+"browsing. A blog site could display Ads based on the tags assigned to posts. "
+"These are only some examples of what you can achieve with <em>%s</em> as "
+"long as a post or custom post type (*) contains taxonomy terms."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:38
+msgid "(*) Support for custom post types is available through add-ons"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:40
+msgid ""
+"To display relevant Ads you just need to specify the taxonomy terms they "
+"should relate to and how they are triggered at the time you're creating the "
+"Ad. Additional options like role restrictions and auto expiring Ads are also "
+"available, but these are optional."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:43
+#, php-format
+msgid ""
+"Note that, altough <em>%s</em> is primarily targeted to display Ads you can "
+"use it to output virtually any type of content using his flexibility to "
+"display content anywhere."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:46
+msgid "Choose the Taxonomy Terms"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:48
+#, php-format
+msgid ""
+"By default, <em>WordPress</em> comes with the taxonomies, <a "
+"href='%s'>Category</a> and <a href='%s'>Tag</a>. Both can be applied to "
+"posts and pages. Some themes and plugins provide additional taxonomies, that "
+"are usually applied to new custom post types."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:52
+#, php-format
+msgid ""
+"<em>%s</em> reads all WordPress taxonomies and also the current theme's "
+"allowing you to display Ads for any of the available taxonomies terms. Just "
+"select the term(s) that relate to the Ad you're creating, from the dropdown "
+"list."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:55
+msgid ""
+"Leave the terms list empty for Ads that should be displayed anywhere. Use it "
+"to display Ads on the front page, for example."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:59
+msgid "Choose the Trigger"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:61
+msgid ""
+"After you choose the terms that relate to the Ad you want to display, you "
+"need to specify how and where the Ad is displayed. You might want to display "
+"your Ads on a single post/page/product view, on a particular listing, on a "
+"sidebar, when a action hook is fired, etc."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:63
+msgid ""
+"Below are the available options that can be selected to display relevant "
+"Ads. You can click on each one to get more details on how to use them."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:65
+#, php-format
+msgid "- <a href=\"%s\">Shortcode</a>"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:66
+#, php-format
+msgid "- <a href=\"%s\">Widget</a>"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:68
+msgid "Choose a Category"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:70
+msgid ""
+"Categories are used to group Ads by type and keep them organized. They are "
+"specially usefull if you need to group Ads in blocks for the same type."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:74
+msgid ""
+"For example, if you need to group Ads by hook, or other trigger, you can "
+"create a specific category like, <em/>Hook Ad</em> and wrap all Ads in a "
+"block. Simply edit the A category and check 'Wrap Ads':"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:80
+msgid "Choose the Duration"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:82
+#, php-format
+msgid ""
+"Ads can be set to expire on a specific date or can run forever. On the <a "
+"href='%s'>settings</a> page, you can choose whether the author should "
+"receive an email notification when the Ad expires, and when it's about to "
+"expire."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:88
+msgid ""
+"<em>Call to Action</em> Ads are special Ads that you can create to redirect "
+"a user to a specific page, usually to sell Ad slots on the site. Check the "
+"<em>Call to Action</em> option to redirect users to your Ads sales page when "
+"the Ad is clicked."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:92
+#: ../admin/class-wp-relevant-ads-howto.php:221
+msgid "More"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:94
+msgid ""
+"Additionally, you can sort Ads, monitor Ad clicks, and also style any Ad "
+"using your own CSS classes."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:96
+#, php-format
+msgid "These options are all available on the <a href='%s'>edit Ad page</a>."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:101
+#, php-format
+msgid ""
+"<em>%1$s</em> can be configured to display only in Widgets. Simply select "
+"<em>Widget</em> as the Ad trigger and assign it an Ad Category. You can then "
+"specify the Ad Categories that each widget should display."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:102
+msgid "No additional file changes are needed to trigger Ads using Widgets."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:106
+#, php-format
+msgid ""
+"<em>%1$s</em> can be displayed/placed on your webite using <a href=\"%2$s\" "
+"target=\"_blank\">Shortcodes</a>. Either placed directly inside your posts "
+"using <em>WordPress</em> embedded Shortcodes tags <code>%3$s</code> (click "
+"this icon %4$s on the <em>TinyMCE</em> dashboard), or placed inside PHP "
+"pages with <code>%5$s</code> PHP function. Altough PHP allows for greater "
+"flexibility, it is not recommended for users not familiar with PHP."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:111
+msgid ""
+"To display Ads using shortcodes make sure you have published Ads with a "
+"<em>Shortcode</em> trigger."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:113
+msgid ""
+"Without additional parameters, shortcodes will always output all your "
+"<em>Shortcode</em> triggered Ads based on the page taxonomy terms. You can "
+"fine tune which Ads are visible, using the additional parameters explained "
+"below."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:117
+#, php-format
+msgid ""
+"<em>%1$s</em> can be triggered using any <a href=\"%2$s\">Action Hook</a> "
+"provided by WordPress or by the active themes/plugins, as long as they are "
+"located on a page that outputs any content with taxonomy terms. <em>Action "
+"Hooks</em> can be identified inside PHP files by the <code>%3$s</code> "
+"function call. Only use hooks that you're familiar with to avoid having Ads "
+"displayed incorrectly or multiple times."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:120
+msgid ""
+"No additional file changes are needed to trigger Ads using hooks. You just "
+"need to find the hook that should trigger your Ads and select it from the "
+"available hooks list, on the edit Ad page. If the hook you want to use is "
+"not listed you can add it to the 'Other Hooks' field."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:125
+#, php-format
+msgid ""
+"<em>%1$s</em> can display Ads virtually anywhere on your site, using <a href="
+"\"%2$s\">jQuery Selectors</a>. Selectors act as placeholders to display the "
+"Ads (i.e: <code>%3$s</code>). Some CSS and/or jQuery knowledge is "
+"recommended."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:127
+msgid ""
+"No additional file changes are needed to trigger Ads using jQuery Selectors "
+"but it may be easier to ad your own CSS classes to act as the placeholders. "
+"You just need to find the place where the Ad should be displayed and specify "
+"the appropriate CSS selector."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:131
+#, php-format
+msgid ""
+"Additional ways to display Ads are available through <a href=\"%s\">add-ons</"
+"a>"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:145
+#: ../admin/class-wp-relevant-ads-howto.php:172
+msgid "Display Ads on Single pages"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:147
+#, php-format
+msgid ""
+"%s: You have a Classifieds site and want to display relevant Ads when users "
+"are viewing classified ads with the terms: outdoor, sports."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:147
+#: ../admin/class-wp-relevant-ads-howto.php:160
+#: ../admin/class-wp-relevant-ads-howto.php:174
+#: ../admin/class-wp-relevant-ads-howto.php:195
+#: ../admin/class-wp-relevant-ads-metaboxes.php:222
+#: ../admin/class-wp-relevant-ads-metaboxes.php:403
+msgid "Use Case"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:151
+#, php-format
+msgid ""
+"Supposing your theme provides a hook named <code>%s</code>, triggered by "
+"<code>%s</code> on single custom post type pages."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:152
+msgid "1. Create a new <em>Relevant Ad</em> named 'Outdoor And Sports (hook)' "
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:153
+#: ../admin/class-wp-relevant-ads-howto.php:180
+msgid ""
+"2. Choose 'Outdoor' and 'Sports' from the 'Taxonomy & Terms' dropdown list."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:154
+msgid ""
+"3. On 'Triggers', choose 'Hook' and look for 'after_single_listing' on the "
+"dropdown list. If it's not listed add it to 'Other Hooks' field."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:155
+msgid ""
+"4. Publish the Ad and you're done. Any classified ad containing the terms, "
+"'outdoors' or 'sports', should now display your newly created Ad."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:159
+msgid "Display Ads on Category pages"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:160
+#, php-format
+msgid ""
+"%s: You want to display 'Automotive' Ads when users are browsing "
+"'Automotive' categories."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:164
+#, php-format
+msgid ""
+"Supposing your theme provides a hook named <code>%s</code>, triggered by "
+"<code>%s</code> on single post pages."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:166
+msgid "1. Create a new <em>Relevant Ad</em> named 'Automotive (hook)' "
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:167
+msgid ""
+"2. Choose 'Automotive' related terms from the 'Taxonomy & Terms' dropdown "
+"list."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:168
+msgid ""
+"3. On 'Triggers', choose 'Hook' and look for 'before_category_listing' on "
+"the dropdown list. If it's not listed add it to 'Other Hooks' field."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:169
+msgid ""
+"4. Publish the Ad and you're done. Automotive category pages should now "
+"display your newly created Ad."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:174
+#, php-format
+msgid ""
+"%s: You have a Classifieds site and want to display relevant Ads on a "
+"specific <code>%s</code> tag when users are viewing classified ads with the "
+"terms: outdoor, sports."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:178
+#, php-format
+msgid ""
+"Supposing your theme provides a <code>%s</code> tag with a class named <code>"
+"%s</code> on single custom post type pages."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:179
+msgid ""
+"1. Create a new jQuery Selector Ad named 'Outdoor And Sports (jQuery "
+"Selector)' "
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:181
+msgid ""
+"3. On 'Triggers', choose 'jQuery Selector', select the positioning and add "
+"the CSS selector <code>div.ad-content</code> to the input field."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:182
+msgid ""
+"4. Publish the Ad and you're done. Any classified ad containing the terms, "
+"'outdoors' or 'sports', should now display your newly created Ad positioned "
+"on the specified jQuery Selector."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:186
+msgid "Display Ads on other pages"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:190
+msgid ""
+"Repeat the same steps as the previous example by locating an appropriate "
+"jQuery Selector to act as the placeholder for the Ad."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:193
+msgid "Display Ads on a Single page sidebar"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:195
+#, php-format
+msgid ""
+"%s: You have a Classifieds site and want to display relevant Ads using a "
+"Widget, on an existing sidebar when users are viewing classified ads in the "
+"'Sports' category."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:199
+msgid "1. Create a new Widget Ad named 'Sports (Widget)' "
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:200
+msgid "2. Choose 'Sports' from the 'Taxonomy & Terms' dropdown list."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:201
+msgid "3. On 'Triggers', choose 'Widget'."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:202
+msgid "4. Create/Select the Ad category 'Sports'."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:203
+#, php-format
+msgid ""
+"5. Goto <em>Appearance > Widgets</em>, add a new <em>%s</em> Widget to the "
+"single ad page sidebar and select 'Sports' from the 'Ad Category' dropdown."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:204
+msgid ""
+"6. Publish the Ad and you're done. Any classified ad on the 'Sports' "
+"category should now be displayed on the single page sidebar."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:208
+msgid "Display Ads on other sidebars"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:212
+msgid ""
+"Repeat the same steps as the previous example and select the appropriate Ad "
+"category."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:218
+msgid "Quick Start"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:219
+msgid "Widgets"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:220
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:239
+msgid "Shortcode Types"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:242
+msgid "Embedded Shortcode"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:246
+msgid ""
+"Copy&Paste the shortcode to a page or post in which you want to display "
+"relevant Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:249
+#: ../admin/class-wp-relevant-ads-metaboxes.php:347
+msgid "PHP Shortcode"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:253
+msgid ""
+"Copy&Paste the shortcode to a PHP file in which you want to display relevant "
+"Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:259
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:262
+msgid "Optional Parameters"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:270
+msgid ""
+"Fine tune which Ads are visible in each page by adding any of the available "
+"parameters to the shortcodes. All parameters are optional."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:274
+msgid "Embedded"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:279
+msgid "PHP"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:282
+msgid "OR *"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:288
+#, php-format
+msgid ""
+"(*) The PHP tags <code>%s</code> are only needed if you're pasting the "
+"shortcode outside existing <code>%s</code> tags."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:291
+#, php-format
+msgid "%s the Ad ID"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:292
+msgid ""
+"Only display the Ad with this specific Ad ID. Replace <em>'YOUR_AD_ID'</em> "
+"with a valid Ad Id."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:296
+#, php-format
+msgid "%s the Ad Category Slug"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:297
+msgid ""
+"Display Ads from this specific Ad Category. Replace <em>'YOUR_AD_CAT_SLUG'</"
+"em> with a valid Ad Category Slug."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:301
+#, php-format
+msgid "%s the CSS Class style to be applied to the Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:302
+msgid ""
+"Style the Ads with this CSS class. Replace <em>'YOUR_AD_CSS_CLASS'</em> with "
+"a valid CSS class."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:306
+#, php-format
+msgid "%s the CSS style to be applied to the Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:307
+msgid ""
+"Style the Ads with this CSS style. Replace <em>'YOUR_AD_CSS_STYLE'</em> with "
+"a valid CSS style."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:312
+#, php-format
+msgid "%s also display Call to Action Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:313
+msgid ""
+"Enqueues Call to Action Ads from the same Ad Category to the retrieved Ads "
+"list."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:320
+msgid "Examples"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:323
+msgid "Display Single Ad"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:327
+msgid ""
+"Embed this shortcode on a page or post to display a single specific Ad. It "
+"expects a valid Ad Id."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:330
+msgid "Display Ads by Category"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:334
+msgid ""
+"Embed this shortcode on a page or post to display Ads from a specific Ad "
+"Category. It expects a valid Ad Category slug."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:337
+msgid "Display Styled Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:341
+msgid ""
+"Embed this shortcode on a page or post to display all active Ads applying a "
+"red border to each one."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:344
+msgid "Multiple Parameters"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-howto.php:348
+msgid ""
+"Display and style Ads from a specific category and also display Call to "
+"Action Ads on the same category."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:75
+msgid "Call to Action Ad?"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:105
+msgid ""
+"Check the option to set this Ad as a 'Call to Action' Ad. 'Call to Action' "
+"Ads act as placeholders to sell Ad slots on your site. You'll need to assign "
+"an Ad category."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:108
+msgid "Sales Page"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:118
+msgid ""
+"Select a page to redirect advertisers wanting to buy Ad slots. If you link "
+"this Ad to an existing page all other links on the Ad will be ignored."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:124
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:732
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:732
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:732
+msgid "None"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:145
+msgid "Criteria"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:151
+msgid "Select the criteria that makes this Ad relevant."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:216
+msgid "Terms"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:219
+msgid ""
+"Leave blank to ignore taxonomy terms and display this Ad without any "
+"criteria."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:220
+msgid ""
+"Check at least one term to give a context to your Ads. If you leave it empty "
+"the Ad will be displayed wherever you set the Ad trigger."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:224
+msgid ""
+"You have a category named 'Sports', and you want to display this Ad on all "
+"'Sports' related posts."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:226
+msgid ""
+"Select any or all the terms from the 'Sports' category to display this Ad on "
+"all 'Sports' related posts."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:228
+#, php-format
+msgid ""
+"(*) The <em>Free</we> version is limited to 'post' terms. If you need to "
+"display Ads based on terms from a custom taxonomy checkout the <a href=\"%s"
+"\">Post-Types Add-on</a>"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:286
+#: ../admin/class-wp-relevant-ads-metaboxes.php:504
+msgid "Display"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:293
+#: ../admin/class-wp-relevant-ads-metaboxes.php:304
+msgid "Select how this Ad should be displayed."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:301
+msgid "Method"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:305
+msgid ""
+"Ads can be displayed using <em>Widgets</em> or <em>Shortcodes</em> (*). "
+"These act as placeholders for the Ad being displayed."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:307
+msgid "Widget"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:309
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%1$s\" rel=\"nofollow\">Widgets</a> are the most "
+"simpler way to display Ads. Just assign an Ad Category to the Ad and choose "
+"it on the <em>%1$s</em> widget on the widgets page."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:309
+msgid "Click to read more about using Widgets to display Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:311
+#: ../admin/class-wp-relevant-ads-metaboxes.php:329
+#: ../admin/class-wp-relevant-ads-settings.php:98
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:313
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%1$s\" rel=\"nofollow\">Shortcodes</a> allow "
+"greater flexibility because you can place them anywhere on your website "
+"although you may need to edit some <em>.php</em> files to place them exactly "
+"where you want."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:313
+msgid "Click to read more about using Shortcodes to display Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:316
+#, php-format
+msgid ""
+"(*) More triggers including CSS selectors, and extended list of native and "
+"custom hooks are also available through <a href=\"%s\">Add-ons</a>"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:332
+msgid "Paste this shortcode on a static page to display the Ad."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:333
+#, php-format
+msgid ""
+"Paste this shortcode on a static page where the Ad should be displayed or "
+"embed it directly on a WordPress page using the dedicated <em>Relevant Ads</"
+"em> icon (%1$s), available on the editing menu.<br/><br/>More details on how "
+"to use shortcodes are available <a href=\"%2$s\">here</a>."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:350
+msgid "Paste this shortcode on a PHP page to display the Ad."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:351
+#, php-format
+msgid ""
+"Paste this shortcode on the PHP file where this Ad should be displayed or "
+"embed it directly on a WordPress page using the dedicated <em>Relevant Ads</"
+"em> icon (%1$s), available on the editing menu.<br/><br/> More details on "
+"how to use shortcodes are available <a href=\"%2$s\">here</a>."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:398
+msgid "Hooks"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:401
+msgid "The Ad will be displayed when the specified hooks are called."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:405
+msgid ""
+"You want to display the Ad each time a hook called <code>after_single_post</"
+"code> is called."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:407
+msgid ""
+"Choose the <code>after_single_post</code> hook from the hooks list if "
+"present, or manually add it to the the 'Other Hook(s)' field."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:410
+#, php-format
+msgid ""
+"(*) Additional <a href=\"%s\">Add-ons</a> provide the ability to load pre-"
+"set lists of hooks from XML files and more positioning options"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:418
+msgid "Select one or more known hooks or specify other(s) below."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:421
+msgid "Other"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:423
+msgid ""
+"Use this field to manually add hooks not listed on the hooks dropdown list. "
+"Use commas to separate multiple hooks."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:426
+msgid "e.g.: after_single_post, before_single_post"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:431
+msgid "Comma separated list of hooks."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:476
+msgid "Styling"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:484
+msgid "Style this Ad using CSS."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:490
+msgid "Class"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:494
+msgid "You can style each Ad individually by adding your own CSS classes here."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:497
+#: ../admin/class-wp-relevant-ads-metaboxes.php:511
+msgid "CSS"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:501
+msgid ""
+"You can style each Ad individually by adding your own CSS styles here. "
+"Normal CSS styles apply, separated by semi-colons (;)."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:507
+msgid ""
+"Choose whether to display this Ad over/under other Ads (stacked), floating "
+"with other Ads (inline) or as set by your CSS style/classes."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:509
+msgid "Stacked"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:510
+msgid "Inline"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:526
+msgid "Duration"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:534
+msgid "Ad Expiry Date"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:538
+msgid "The date the Ad expires. Leave blank to display the Ad indefinitely."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:568
+msgid "Pick Date..."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:571
+msgid "Clear"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:573
+msgid "Leave blank for unlimited."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:605
+msgid "The current Ad clicks."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:615
+msgid ""
+"This field will always show the current clicks for this Ad. Leave blank to "
+"reset the value to 0."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:628
+msgid "Ad Owner"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-metaboxes.php:638
+msgid "Author"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:16
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:17
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-menu.php:211
+#: ../includes/bc-framework-old-old/includes/wp-scb-framework/AdminPage.php:519
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-menu.php:211
+#: ../includes/bc-framework-old/includes/wp-scb-framework/AdminPage.php:519
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-menu.php:211
+#: ../includes/bc-framework/includes/wp-scb-framework/AdminPage.php:519
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:36
+msgid "General"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:37
+#: ../admin/class-wp-relevant-ads-settings.php:83
+msgid "Notifications"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:38
+msgid "Extra"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:44
+msgid "Count Clicks"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:45
+msgid "Enable this option to monitor Ad clicks."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:53
+#: ../includes/class-wp-relevant-ads-core.php:266
+msgid "Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:56
+msgid "Wrapper Markup"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:57
+msgid "The <code>_AD_</code> placeholder is required."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:58
+msgid "The HTML markup for wrapping each category of Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:68
+msgid "Wrapper Title Markup"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:69
+msgid "The <code>_TITLE_</code> placeholder is required."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:70
+msgid "The HTML markup for the title displayed inside each category of Ads."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:86
+msgid "Expired Ads"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:87
+msgid "Notify Ad owners by email when an Ad expires."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:95
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:99
+msgid ""
+"Use this shortcode to display a simple contact form on your pre-sales page."
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:112
+msgid "Parameters"
+msgstr ""
+
+#: ../admin/class-wp-relevant-ads-settings.php:114
+#: ../admin/class-wp-relevant-ads-settings.php:116
+msgid "i.e:"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/class-tooltips.php:331
+#: ../includes/bc-framework-old/admin/class-bc-admin-page.php:53
+#: ../includes/bc-framework-old/admin/class-tooltips.php:331
+#: ../includes/bc-framework/admin/class-bc-admin-page.php:53
+#: ../includes/bc-framework/admin/class-tooltips.php:331
+msgid "Click to read additional info..."
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/class-tooltips.php:332
+#: ../includes/bc-framework-old/admin/class-bc-admin-page.php:54
+#: ../includes/bc-framework-old/admin/class-tooltips.php:332
+#: ../includes/bc-framework/admin/class-bc-admin-page.php:54
+#: ../includes/bc-framework/admin/class-tooltips.php:332
+msgid "Click for more info"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:554
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:554
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:554
+msgid "Search Plugins"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:800
+msgid "Install Now"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:806
+msgid "Update Now"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:930
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:930
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:821
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:840
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:930
+msgid "More Details"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+#, php-format
+msgid "Get %s Update"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:828
+msgid "Get Update"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+#, php-format
+msgid "Visit %s Demo Site"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:848
+msgid "Demo"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:871
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:871
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:871
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:896
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:896
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:896
+#, php-format
+msgid "By %1$s"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:909
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:909
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:909
+msgid "Added:"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:911
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:911
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:911
+msgid "Last Updated:"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:914
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:914
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:914
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+msgid "Requirements:"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:918
+msgid "Requirements"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:921
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:921
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:921
+#, php-format
+msgid "Hosted by %s"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:929
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:929
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:929
+msgid "Go Premium"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:940
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:940
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:940
+msgid "Starting at"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:975
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:975
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:975
+msgid "Try again"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser-list.php:977
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser-list.php:977
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser-list.php:977
+msgid "No plugins match your request."
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:143
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:143
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:143
+msgid "Browse Products"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:153
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:153
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:153
+msgid "Hosted Anywhere"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:154
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:154
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:154
+msgid "Any Requirements"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:155
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:155
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:155
+msgid "All Categories"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:156
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:156
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:156
+msgid "All Authors"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:175
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:175
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:175
+msgid "Showcase"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:205
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:205
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:205
+msgid "Popular"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:316
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:316
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:316
+msgid ""
+"Enjoying my plugins? Cool! Here's my complete list. I'm constantly working "
+"on new stuff so, follow me on Twitter for news.<br/><br/>I'm also a Web "
+"Developer and WordPress consultant. Contact me if you need custom "
+"development. Cheers!"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:403
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:403
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:403
+#, php-format
+msgid ""
+"Found <strong>%d plugin(s)</strong> update(s). Please review your installed "
+"plugins below."
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:535
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:535
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:535
+msgid "WordPress"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:536
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:536
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:536
+msgid "WordPress Profile"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:539
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:539
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:539
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:540
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:540
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:540
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:543
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:543
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:543
+msgid "Email"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/plugins-browser/class-wp-plugin-browser.php:544
+#: ../includes/bc-framework-old/admin/plugins-browser/class-wp-plugin-browser.php:544
+#: ../includes/bc-framework/admin/plugins-browser/class-wp-plugin-browser.php:544
+msgid "Contact Me"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:151
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:181
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:151
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:181
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:151
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:181
+msgid "Apply"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:161
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:161
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:161
+msgid "Guided Tutorial"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:165
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:165
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:165
+msgid "Enable"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:166
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:166
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:166
+msgid "display the guided tutorial"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:237
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:237
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:237
+msgid "Next"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/admin/pointers-tour/class-pointers-tour.php:238
+#: ../includes/bc-framework-old/admin/pointers-tour/class-pointers-tour.php:238
+#: ../includes/bc-framework/admin/pointers-tour/class-pointers-tour.php:238
+msgid "Close"
+msgstr ""
+
+#: ../includes/bc-framework-old-old/includes/wp-scb-framework/AdminPage.php:261
+#: ../includes/bc-framework-old/includes/wp-scb-framework/AdminPage.php:261
+#: ../includes/bc-framework/includes/wp-scb-framework/AdminPage.php:261
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:19
+msgid "Your Name (required) <br/>"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:23
+msgid "Your Email (required) <br/>"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:27
+msgid "Ad Information (required) <br/>"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:29
+msgid ""
+"Please describe the type of Ad you want to display and where you would like "
+"to position it. You can also choose to display your Ads on specific "
+"categories."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:52
+msgid "<p>Thanks for contacting us, expect a response soon.</p>"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-contact.php:55
+msgid "An unexpected error occurred. Please try again later."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:120
+msgid "Display Ad before the content - Single Pages Only"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:121
+msgid "Display the Ad after the content - Single Pages Only"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:122
+msgid "Display Ad before the content - All Pages"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:123
+msgid "Display the Ad after the content - All Pages"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:267
+msgid "Ad"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:268
+#: ../includes/class-wp-relevant-ads-core.php:269
+msgid "Add New Ad"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:270
+msgid "Edit Ad"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:271
+msgid "New Ad"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:272
+msgid "View Ad"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:273
+msgid "Search Ads"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:274
+msgid "No Ads found"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:275
+msgid "No Ads found in Trash"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:276
+msgid "Parent Ad:"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:318
+msgid "Search Ad Categories"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:319
+msgid "All Ad Categories"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:320
+msgid "Edit Ad Category"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:321
+msgid "Update Ad Category"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:322
+msgid "Add New Ad Category"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-core.php:323
+msgid "New Ad Category Name"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-notify.php:43
+#, php-format
+msgid "Hello %s,"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-notify.php:45
+#, php-format
+msgid "Your Ad \"%s\" has expired."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-notify.php:52
+#, php-format
+msgid "[%1$s] Ad Expired: \"%1$s\""
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-notify.php:77
+#, php-format
+msgid "The Team @ <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:22
+msgid "Display single or multiple relevant Ads on the sidebar."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:71
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:88
+msgid "Limit"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:96
+msgid ""
+"Leave empty to output all existing relevant Ads from the selected category."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:100
+msgid "Mininum"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:109
+msgid ""
+"Always show this minimum number of relevant Ads. Empty slots will be "
+"replaced by existing 'Call to Action' Ads from the selected category."
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:113
+msgid "Display as 125x125 Grid?"
+msgstr ""
+
+#: ../includes/class-wp-relevant-ads-widgets.php:120
+msgid ""
+"The grid will only be applicable if you have more then one Ad to display."
+msgstr ""
+
+#: ../includes/options.php:18
+#, php-format
+msgid "To extend your Ad duration, please <a href=\"%s\">contact us</a>."
+msgstr ""
+
+#: ../includes/options.php:19
+#, php-format
+msgid "To place a new Ad on our site, please <a href=\"%s\">contact us</a>."
+msgstr ""
